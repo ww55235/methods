@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // for (let i = 1; i < 10; i++) {
+      //   for (let j = 1; j <= i; j++) {
+      //     console.log(``)
+      //   }
+      //   console.log('\\n')
+      // }
+
+      // 使用for循环打印九九乘法表
+      let sum = ''
+      for (let i = 1; i <= 9; i++) {
+        for (let j = 1; j <= i; j++) {
+          sum += j + '*' + i + '=' + j * i + '\t'
+        }
+        sum += '\n'
+      }
+      console.log(sum)
+    </script>
+  </body>
+</html>
